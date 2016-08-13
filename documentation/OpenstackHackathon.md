@@ -40,7 +40,15 @@ root@openstackme:~/openstack#
 - /etc/openstack
 
 ```sh
-
+clouds:
+  myfavoriteopenstack:
+    auth:        
+      auth_url: https://YOUR_IDENTITY_CONTROLLER
+      username: YOUR_USERNAME
+      password: YOUR_PASSWORD
+      project_name: YOUR_PROJECT
+      domain_id: default
+    region_name: RegionOne
 ```
 
 # 
