@@ -11,5 +11,4 @@ pip install -U pip setuptools requests
 pip install six --upgrade
 pip install -r requirements.pip
 
-
 wget https://raw.githubusercontent.com/openstack-hackathon/training-shade-sdk/master/clouds.yml
