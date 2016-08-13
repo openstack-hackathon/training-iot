@@ -1,5 +1,9 @@
 # Linux Development Board
 
+# Your Laptop
+
+# Digital Ocean
+
 1. [Create Droplet](https://cloud.digitalocean.com/droplets )
    - __Choose an Image__ Distribution: Ubuntu 14.04.5 
    - __Choose a size__ $5/mo 
@@ -14,4 +18,3 @@
    -  Finalize and create
      - How many droplets: 1
      - Choose a hostname: openstackme     
-
