@@ -5,5 +5,4 @@
 
 <center>by Xe1Gyq && [The IoT Learning Initiative](https://theiotlearninginitiative.gitbooks.io/master/content/)</center>
 
-
 <center><h1><b>Experiment, Make, Innovate</b></h1></center>
