@@ -57,6 +57,10 @@ clouds:
 
 # Hello Openstack
 
+```
+root@openstackme:~/openstack# nano main.py
+```
+
 ```python
 from shade import *
 
