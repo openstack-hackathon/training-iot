@@ -1,9 +1,0 @@
-# Openstack Hackathon
-
-
-
-
-
-
-
-
