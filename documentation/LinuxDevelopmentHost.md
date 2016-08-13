@@ -2,7 +2,7 @@
 
 # Your Laptop
 
-
+Debian based
 
 # Digital Ocean
 
