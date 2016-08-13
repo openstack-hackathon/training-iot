@@ -18,7 +18,7 @@
      - Choose a hostname: openstackme     
 
 
-# Openstack Library Environment
+# Openstack Environment
 
 ```sh
 root@openstackme:~# curl https://raw.githubusercontent.com/xe1gyq/openstack/master/setup.sh -o - | sh
