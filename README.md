@@ -3,6 +3,6 @@
 <center><img src="https://pbs.twimg.com/media/ChA-gj0UcAQ94Pr.png"></center>
 <br>
 
-<center>[The IoT Learning Initiative](https://theiotlearninginitiative.gitbooks.io/master/content/)</center>
+<center>The IoT Learning Initiative</center>
 
 <center><h1><b>Experiment, Make, Innovate</b></h1></center>
