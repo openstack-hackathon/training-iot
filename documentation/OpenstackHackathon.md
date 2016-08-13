@@ -35,3 +35,6 @@ root@openstackme:~/openstack#
 
 > clouds.yaml is a configuration file that contains everything needed to connect to one or more clouds. It may contain private information and is generally considered private to a user.
 
+- current directory
+- ~/.config/openstack
+- /etc/openstack
