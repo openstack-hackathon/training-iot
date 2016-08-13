@@ -39,4 +39,8 @@ root@openstackme:~/openstack#
 - ~/.config/openstack
 - /etc/openstack
 
+```sh
+
+```
+
 # 
