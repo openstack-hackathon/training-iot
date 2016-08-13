@@ -17,7 +17,8 @@ pip install -r requirements.pip
 
 wget https://raw.githubusercontent.com/openstack-hackathon/training-shade-sdk/master/clouds.yml
 
+echo "clouds.yml ready under openstack directory! please modify"
 echo
-echo "clouds.yml ready! please modify"
+echo "Now go to openstack directory to get started!"
 echo "Happy Openstack'ing!"
 echo
