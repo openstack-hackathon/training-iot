@@ -7,5 +7,5 @@
 * [Linux Development Host](documentation/LinuxDevelopmentHost.md)
 * [Openstack Development Environment](documentation/OpenstackDevelopmentEnvironment.md)
 * [Openstack Configuration File](documentation/OpenstackConfigurationFile.md)
-* Openstack Hello World
+* [Openstack Hello World](documentation/OpenstackHelloWorld.md)
 
