@@ -57,7 +57,6 @@ clouds:
 
 # Hello Openstack
 
-
 ```sh
 root@openstackme:~/openstack# python main.py
 Manager internap-trainer:ams01 running task GlanceImageList
