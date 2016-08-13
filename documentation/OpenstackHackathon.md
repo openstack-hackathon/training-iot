@@ -38,3 +38,4 @@ root@openstackme:~/openstack#
 - current directory
 - ~/.config/openstack
 - /etc/openstack
+
