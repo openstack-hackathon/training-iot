@@ -19,7 +19,7 @@
 
 
 ```sh
-root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/GiekIs/master/setup.sh -o - | sh
+root@openstackme:~# curl https://raw.githubusercontent.com/xe1gyq/openstack/master/setup.sh -o - | sh
 ```
 
 ```sh
