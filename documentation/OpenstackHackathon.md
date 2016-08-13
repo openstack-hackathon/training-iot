@@ -30,3 +30,5 @@ root@openstackme:~/openstack#
 ```
 
 # 
+
+> OpenStackClient is primarily configured using command line options and environment variables. Most of those settings can also be placed into a configuration file to simplify managing multiple cloud configurations. [Python Openstack Configuration](http://docs.openstack.org/developer/python-openstackclient/configuration.html)
