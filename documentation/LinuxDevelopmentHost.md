@@ -2,6 +2,8 @@
 
 # Your Laptop
 
+
+
 # Digital Ocean
 
 1. [Create Droplet](https://cloud.digitalocean.com/droplets )
