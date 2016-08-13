@@ -1,6 +1,6 @@
-<h1><center><b>Openstack Hackathon Guadalajara</b></center></h1>
+<h1><center><b>Internet of Things</b></center></h1>
 
-<center><img src="https://blogsprod.s3.amazonaws.com/blogs/wp-content/uploads/2015/04/OpenStack-logo.png"></center>
+<center><img src="https://pbs.twimg.com/media/ChA-gj0UcAQ94Pr.png"></center>
 
 <h2><center><b>by Xe1Gyq && The IoT Learning Initiative</b></center></h2>
 
