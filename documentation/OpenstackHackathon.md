@@ -1,5 +1,9 @@
 # Openstack Hackathon
 
+# Shade
+
+>  [Shade Homepage](http://docs.openstack.org/infra/shade/)
+
 # Linux Development Board
 
 1. [Create Droplet](https://cloud.digitalocean.com/droplets )
