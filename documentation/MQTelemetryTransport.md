@@ -28,3 +28,8 @@ As publishers
 
 ## Mosquitto MQTT Server/Broker
 
+```sh
+user@host:~$ sudo apt-get update
+user@host:~$ 
+user@host:~$ 
+```
