@@ -90,4 +90,4 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 CANCELFORWARD 1 DELETE 1 REPLY
 ```
 
-- Search for the Bot already created and add it to your contacts
+Search for the Bot already created and add it to your contacts
