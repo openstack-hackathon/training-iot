@@ -3,23 +3,26 @@
 ```sh
 root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/openstack/master/device/setup.sh -o - | sh
 ```
+
 ```sh
 Welcome to Xe1Gyq Openstack Device Playground
 
---2016-08-14 17:58:52--  https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tar.gz
+--2016-08-14 18:04:12--  https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tar.gz
 Resolving launchpad.net... 91.189.89.223, 91.189.89.222
 Connecting to launchpad.net|91.189.89.223|:443... connected.
 HTTP request sent, awaiting response... 302 Moved Temporarily
 Location: https://launchpadlibrarian.net/166317636/pywapi-0.3.8.tar.gz [following]
---2016-08-14 17:59:05--  https://launchpadlibrarian.net/166317636/pywapi-0.3.8.tar.gz
+--2016-08-14 18:04:14--  https://launchpadlibrarian.net/166317636/pywapi-0.3.8.tar.gz
 Resolving launchpadlibrarian.net... 91.189.89.228, 91.189.89.229
 Connecting to launchpadlibrarian.net|91.189.89.228|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 25166 (25K) [application/x-tar]
 Saving to: 'pywapi-0.3.8.tar.gz'
 
-100%[======================================>] 25,166       128KB/s   in 0.2s   
-2016-08-14 17:47:40 (128 KB/s) - 'pywapi-0.3.8.tar.gz' saved [25166/25166]                             
+100%[======================================>] 25,166       127KB/s   in 0.2s   
+
+2016-08-14 18:04:15 (127 KB/s) - 'pywapi-0.3.8.tar.gz' saved [25166/25166]
+
 pywapi-0.3.8/examples/pywapi-countries-example.py
 pywapi-0.3.8/setup.py
 pywapi-0.3.8/MANIFEST
@@ -49,12 +52,13 @@ running install_egg_info
 Removing /usr/lib/python2.7/site-packages/pywapi-0.3.8-py2.7.egg-info
 Writing /usr/lib/python2.7/site-packages/pywapi-0.3.8-py2.7.egg-info
 Cloning into 'openstack'...
-remote: Counting objects: 476, done.
-remote: Compressing objects: 100% (162/162), done.
-remote: Total 476 (delta 94), reused 0 (delta 0), pack-reused 307
-Receiving objects: 100% (476/476), 54.71 KiB | 0 bytes/s, done.
-Resolving deltas: 100% (257/257), done.
+remote: Counting objects: 486, done.
+remote: Compressing objects: 100% (172/172), done.
+remote: Total 486 (delta 101), reused 0 (delta 0), pack-reused 307
+Receiving objects: 100% (486/486), 55.97 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (264/264), done.
 Checking connectivity... done.
+Cache entry deserialization failed, entry ignored
 /usr/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:318: SNIMissingWarning: An HTTPS request has been.
   SNIMissingWarning
 /usr/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext o.
@@ -65,8 +69,36 @@ Updated list of available packages in /var/lib/opkg/iotkit.
 Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/all/Packages.
 Updated list of available packages in /var/lib/opkg/iotdk-all.
 Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/Packages.
+Updated list of available packages in /var/lib/opkg/iotdk-core2-32.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/edison/Packages.
+Updated list of available packages in /var/lib/opkg/iotdk-edison.
+Package python-dev (2.7.3-r0.3) installed in root is up to date.
+Requirement already satisfied (use --upgrade to upgrade): requests in /usr/lib/python2.7/site-packages (from -r requirements.pip (lin)
+Requirement already satisfied (use --upgrade to upgrade): future in /usr/lib/python2.7/site-packages (from -r requirements.pip (line )
+Requirement already satisfied (use --upgrade to upgrade): python-telegram-bot in /usr/lib/python2.7/site-packages (from -r requiremen)
+Requirement already satisfied (use --upgrade to upgrade): psutil in /usr/lib/python2.7/site-packages (from -r requirements.pip (line )
+Requirement already satisfied (use --upgrade to upgrade): paho-mqtt in /usr/lib/python2.7/site-packages (from -r requirements.pip (li)
+Requirement already satisfied (use --upgrade to upgrade): urllib3>=1.10 in /usr/lib/python2.7/site-packages (from python-telegram-bot)
+Requirement already satisfied (use --upgrade to upgrade): certifi in /usr/lib/python2.7/site-packages (from python-telegram-bot->-r r)
 
+Now go to openstack/device directory to get started!
 
+Work on having your credentials ready!
+credentials.config
+
+Happy Openstack'ing!
+
+root@edison:~# 
 ```
 
+```sh
+root@edison:~# cd openstack/device/
+root@edison:~/openstack/device# ls
+iot101inc.py  main.py  requirements.opkg  requirements.pip  setup.sh
+root@edison:~/openstack/device# 
+```
+
+
+```sh
+```
 
