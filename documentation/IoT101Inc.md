@@ -23,3 +23,7 @@ Data Sensor Mqtt Published!
 [2]+  Stopped(SIGTSTP)        python iot101inc.py
 root@edison:~/openstack/device# 
 ```
+
+```sh
+
+```
