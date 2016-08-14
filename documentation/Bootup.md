@@ -68,8 +68,6 @@ round-trip min/avg/max = 43.713/97.686/151.659 ms
 root@edison:~# 
 ```
 
-Do not execute this step! In case only WiFi was configure, configure also password to enable SSH on the wireless interface
-
 Shutdown usb0 interface and check IP address assigned
 
 ```sh
