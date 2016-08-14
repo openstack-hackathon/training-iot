@@ -1,4 +1,4 @@
-# Linux Development Board
+# Linux Workstation
 
 # Your Laptop
 
