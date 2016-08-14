@@ -7,7 +7,7 @@
 * [Device](documentation/Device.md)
    * [Bootup](documentation/Bootup.md)
    * [Text Editors](documentation/documentation/TextEditors.md)
-   * Setup
+   * [Setup](documentation/DeviceSetup.md)
    * [Main](documentation/Main.md)
    * [IoT101 Inc.](documentation/IoT101Inc.md)
 * [Linux Workstation](documentation/LinuxWorkstation.md)
