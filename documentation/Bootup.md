@@ -40,6 +40,10 @@ So Intel Edison can be recognized as a COM port, please install [this driver](ht
     user@host:~$ sudo minicom -D /dev/ttyUSB0 115200
 ```
 
+### OS X
+
+:(
+
 ## Serial Communication Application
 
 > PuTTY is an SSH and telnet client, developed originally by Simon Tatham for the Windows platform. PuTTY is open source software that is available with source code and is developed and supported by a group of volunteers.
