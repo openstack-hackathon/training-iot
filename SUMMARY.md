@@ -5,7 +5,7 @@
 * [Introduction](documentation/Introduction.md)
    * [Telegram](documentation/Telegram.md)
 * [Device](documentation/Device.md)
-   * Bootup
+   * [Bootup](documentation/Bootup.md)
    * [Text Editors](documentation/documentation/TextEditors.md)
    * [Main](documentation/Main.md)
    * [IoT101 Inc.](documentation/IoT101Inc.md)
