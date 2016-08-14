@@ -3,7 +3,7 @@
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
 * [Introduction](documentation/Introduction.md)
-* Device
+* [Device](documentation/Device.md)
    * Tbd
 * [Linux Workstation](documentation/LinuxWorkstation.md)
    * [Openstack Development Environment](documentation/OpenstackDevelopmentEnvironment.md)
