@@ -10,7 +10,7 @@
 
 [Mosquitto Homepage](http://mosquitto.org/)
 
-## Mosquitto Client 
+## Mosquitto Client Test Server
 
 We should have all Mosquitto MQTT tools available in latest version of Linux Yocto based version
 
