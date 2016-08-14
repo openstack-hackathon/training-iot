@@ -32,4 +32,5 @@ As publishers
 user@host:~$ sudo apt-get update
 user@host:~$ sudo apt-get install mosquitto
 user@host:~$ sudo update-rc.d mosquitto defaults
+user@host:~$ sudo /etc/init.d/mosquitto start
 ```
