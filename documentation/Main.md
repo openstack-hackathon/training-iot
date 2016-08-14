@@ -21,6 +21,13 @@ root@edison:~/openstack/device#
 ```
 
 ```sh
+root@edison:~/openstack/device# ls
+credentials.config  main.py            requirements.pip
+iot101inc.py        requirements.opkg  setup.sh
+root@edison:~/openstack/device# 
+```
+
+```sh
 root@edison:~/openstack/device# python main.py 
 /usr/lib/python2.7/site-packages/urllib3/util/ssl_.py:318: SNIMissingWarning: An HTTPS request has been made, but the SNI (Subject Na.
   SNIMissingWarning
