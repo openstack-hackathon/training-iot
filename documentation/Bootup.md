@@ -50,6 +50,8 @@ So Intel Edison can be recognized as a COM port, please install [this driver](ht
 
 Use [Putty](http://www.putty.org/)
 
+> Minicom
+
 ## Yocto @ Edison
 
 > Connect your development board (Intel Edison/Intel Galileo) to your Development Workstation using the registered COM / TTY device and boot up
