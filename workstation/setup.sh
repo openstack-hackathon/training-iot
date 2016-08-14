@@ -1,5 +1,5 @@
 echo
-echo "Welcome to Xe1Gyq Openstack Playground"
+echo "Welcome to Xe1Gyq Openstack Workstation Playground"
 echo
 
 sleep 4
@@ -18,6 +18,8 @@ pip install -r requirements.pip
 wget https://raw.githubusercontent.com/openstack-hackathon/training-shade-sdk/master/clouds.yml
 
 echo
-echo "clouds.yml ready! please modify"
+echo "Now go to openstack/workstation directory to get started!"
+echo "Get your Openstack Configuration clouds.yml ready
+echo
 echo "Happy Openstack'ing!"
 echo
