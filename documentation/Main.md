@@ -12,3 +12,10 @@ Exiting
 Exception KeyError: KeyError(-1217222912,) in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
 root@edison:~/openstack/device# 
 ```
+
+```sh
+root@edison:~/openstack/device# nano credentials.config
+```
+
+```sh
+```
