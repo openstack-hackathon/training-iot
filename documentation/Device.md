@@ -93,7 +93,7 @@ root@edison:~#
 
 ```sh
 root@edison:~# cd openstack/device/
-root@edison:~/openstack/device# ls 
+root@edison:~/openstack/device# ls
 iot101inc.py  main.py  requirements.opkg  requirements.pip  setup.sh
 root@edison:~/openstack/device# 
 ```
