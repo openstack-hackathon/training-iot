@@ -15,6 +15,6 @@
    * [Openstack Configuration File](documentation/OpenstackConfigurationFile.md)
    * [Openstack Hello World](documentation/OpenstackHelloWorld.md)
 * [MQ Telemetry Transport](documentation/MQTelemetryTransport.md)
-* Challenge
+* [Challenge](documentation/Challenge.md)
 * [Resources](documentation/Resources.md)
 
