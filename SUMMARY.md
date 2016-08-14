@@ -4,7 +4,6 @@
 * [Summary](SUMMARY.md)
 * [Introduction](documentation/Introduction.md)
    * [Text Editors](documentation/documentation/TextEditors.md)
-   * Tbd
 * [Device](documentation/Device.md)
 * [Linux Workstation](documentation/LinuxWorkstation.md)
    * [Openstack Development Environment](documentation/OpenstackDevelopmentEnvironment.md)
