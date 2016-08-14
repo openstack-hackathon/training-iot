@@ -1,8 +1,57 @@
 # Bootup
 
+## Intel® Edison
+
+Official Get Started Guide
+
+- [Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
+
+Community Get Started Guides
+
+- [Sparkfun Edison Getting Started](https://learn.sparkfun.com/tutorials/edison-getting-started-guide)
+- [Instructables A Comprehensive Intel Edison Getting Started Guide](http://www.instructables.com/id/A-Comprehensive-Intel-Edison-Getting-Started-Guide/)
+- [Codefoster Setting up an Intel Edison](http://www.codefoster.com/edison-setup/)
+- [Edison Mini Breakout: The Real Getting Started Guide](http://blog.microcasts.tv/2014/10/16/edison-mini-breakout-the-real-getting-started-guide)
+
 ## Drivers Setup
 
 Might be a difficult journey
+
+- Windows® 64-bit
+- Windows® 32-bit
+- OS X®
+- Linux® (Used when building BSP)
+
+
+### Board Connection with Development Workstation
+
+> Connect Development Workstation with Intel® Edison / Intel® Galileo and launch your Serial Communication Application
+
+#### Windows
+
+> PuTTY is an SSH and telnet client, developed originally by Simon Tatham for the Windows platform. PuTTY is open source software that is available with source code and is developed and supported by a group of volunteers.
+
+Use [Putty](http://www.putty.org/)
+
+### Windows USB Serial Driver
+
+So Intel Edison can be recognized as a COM port, please install [this driver](http://downloadmirror.intel.com/24909/eng/IntelEdisonDriverSetup1.2.1.exe)
+
+[Other driver](http://www.ftdichip.com/Drivers/CDM/CDM21216_Setup.exe)
+
+## Linux
+
+```sh
+    user@host:~$ dmesg
+    [11940.538090] ftdi_sio 6-1:1.0: FTDI USB Serial Device converter detected
+    [11940.538137] usb 6-1: Detected FT232RL
+    [11940.538139] usb 6-1: Number of endpoints 2
+    [11940.538142] usb 6-1: Endpoint 1 MaxPacketSize 64
+    [11940.538144] usb 6-1: Endpoint 2 MaxPacketSize 64
+    [11940.538147] usb 6-1: Setting MaxPacketSize 64
+    [11940.540185] usb 6-1: FTDI USB Serial Device converter now attached to ttyUSB0
+    user@host:~$ sudo minicom -D /dev/ttyUSB0 115200
+```
 
 ## Yocto @ Edison
 
