@@ -23,13 +23,13 @@ Might be a difficult journey
 - Linux® (Used when building BSP)
 
 
-## Windows USB Serial Driver
+### Windows USB Serial Driver
 
 So Intel Edison can be recognized as a COM port, please install [this driver](http://downloadmirror.intel.com/24909/eng/IntelEdisonDriverSetup1.2.1.exe)
 
 [Other driver](http://www.ftdichip.com/Drivers/CDM/CDM21216_Setup.exe)
 
-## Linux
+### Linux
 
 ```sh
     user@host:~$ dmesg
