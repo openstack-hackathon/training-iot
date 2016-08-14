@@ -48,4 +48,6 @@ root@edison:~/openstack/device# python main.py
 root@edison:~/openstack/device# 
 ```
 
-## 
+## main interaction through telegram bot
+
+Interact with your Bot using the Web Telegram Org Application
