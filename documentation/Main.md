@@ -1,6 +1,6 @@
 # Main
 
-## openstack device main (sensors)
+## missing credentials
 
 ```sh
 root@edison:~/openstack/device# python main.py 
@@ -15,12 +15,16 @@ Exception KeyError: KeyError(-1217222912,) in <module 'threading' from '/usr/lib
 root@edison:~/openstack/device# 
 ```
 
+## credentials setup
+
 ```sh
 root@edison:~/openstack/device# nano credentials.config
 [telegram]
 token=227111423:.......................................
 root@edison:~/openstack/device# 
 ```
+
+## directory structure
 
 ```sh
 root@edison:~/openstack/device# ls
