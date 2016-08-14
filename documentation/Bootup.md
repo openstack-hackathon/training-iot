@@ -42,7 +42,7 @@ So Intel Edison can be recognized as a COM port, please install [this driver](ht
 
 ### OS X
 
-    :(
+     :(
 
 ## Serial Communication Application
 
