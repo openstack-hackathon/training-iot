@@ -1,8 +1,11 @@
 # Bootup
 
-> Connect your development board (Intel Edison/Intel Galileo) to your Development Workstation using the registered COM / TTY device and boot up
+## Drivers Setup
+
 
 ## Yocto @ Edison
+
+> Connect your development board (Intel Edison/Intel Galileo) to your Development Workstation using the registered COM / TTY device and boot up
 
 ```sh
 Poky (Yocto Project Reference Distro) 1.7.3 edison ttyMFD2                      
