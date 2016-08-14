@@ -1,5 +1,5 @@
 echo
-echo "Welcome to Xe1Gyq Openstack Playground"
+echo "Welcome to Xe1Gyq Openstack Workstation Playground"
 echo
 
 sleep 4
