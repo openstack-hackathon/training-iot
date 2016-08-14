@@ -43,6 +43,9 @@ root@edison:~/openstack/device# python main.py
   InsecurePlatformWarning
 /usr/lib/python2.7/site-packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This p.
   InsecurePlatformWarning
+  
+Go to section "main interaction through telegram bot"
+  
 ^Z
 [1]+  Stopped(SIGTSTP)        python main.py
 root@edison:~/openstack/device# 
