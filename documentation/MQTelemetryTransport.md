@@ -23,7 +23,7 @@ root@edison:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t IoT101/#
 As publishers
 
 ```sh
-root@edison:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t IoT101/all -m "Hello All Operators!"
+root@edison:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t IoT101/all -m "Hello All!"
 ```
 
 ## Mosquitto Server/Broker
@@ -46,6 +46,6 @@ root@edison:~# mosquitto_sub -h ip.of.deployed.server -p 1883 -t IoT101/#
 As publishers
 
 ```sh
-root@edison:~# mosquitto_pub -h ip.of.deployed.server -p 1883 -t IoT101/all -m "Hello All Operators!"
+root@edison:~# mosquitto_pub -h ip.of.deployed.server -p 1883 -t IoT101/all -m "Hello All!"
 ```
 
