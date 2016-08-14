@@ -10,7 +10,7 @@
 
 [Mosquitto Homepage](http://mosquitto.org/)
 
-## Mosquitto Intel® Edison Setup
+## Mosquitto Client Tools Intel® Edison Setup
 
 We should have all Mosquitto MQTT tools available in latest version of Linux Yocto based version
 
