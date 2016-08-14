@@ -35,7 +35,7 @@ user@host:~$ sudo update-rc.d mosquitto defaults
 user@host:~$ sudo /etc/init.d/mosquitto start
 ```
 
-## Mosquitto Client Open Server
+## Mosquitto Client Openstack Provisioned Server
 
 We should have all Mosquitto MQTT tools available in latest version of Linux Yocto based version
 
