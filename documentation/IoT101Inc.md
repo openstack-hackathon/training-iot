@@ -28,7 +28,7 @@ root@edison:~/openstack/device#
 
 # iot101inc source code
 
-```sh
+```python
 #!/usr/bin/python
 
 import paho.mqtt.client as paho
