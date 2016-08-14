@@ -2,7 +2,6 @@
 
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
-   * MQTT Server
 * [Introduction](documentation/Introduction.md)
    * [Telegram](documentation/Telegram.md)
 * [Device](documentation/Device.md)
