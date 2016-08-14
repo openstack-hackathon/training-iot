@@ -6,7 +6,7 @@
 * [Linux Workstation](documentation/LinuxWorkstation.md)
    * [Openstack Development Environment](documentation/OpenstackDevelopmentEnvironment.md)
    * [Openstack Configuration File](documentation/OpenstackConfigurationFile.md)
+   * [Openstack Hello World](documentation/OpenstackHelloWorld.md)
    * Tbd
-* [Openstack Hello World](documentation/OpenstackHelloWorld.md)
 * [Resources](documentation/Resources.md)
 
