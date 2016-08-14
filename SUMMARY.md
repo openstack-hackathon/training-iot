@@ -4,7 +4,7 @@
 * [Summary](SUMMARY.md)
 * [Introduction](documentation/Introduction.md)
    * [Text Editors](documentation/documentation/TextEditors.md)
-   * Telegram
+   * [Telegram](documentation/Telegram.md)
 * [Device](documentation/Device.md)
    * [Main](documentation/Main.md)
    * [IoT101 Inc.](documentation/IoT101Inc.md)
