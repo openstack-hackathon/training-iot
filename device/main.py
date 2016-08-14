@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
     updater.start_polling()
 
-    message = "Hi! I'm GiekIe!"
+    message = "Hi! I'm Main!"
 
     while True:
 
