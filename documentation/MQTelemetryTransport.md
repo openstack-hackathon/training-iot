@@ -14,7 +14,9 @@
 
 We should have all Mosquitto MQTT tools available in latest version of Linux Yocto based version
 
-##  Mosquitto MQTT Server/Broker
+## Mosquitto MQTT Server/Broker
+
+## Mosquitto Client
 
 As subscribers
 
