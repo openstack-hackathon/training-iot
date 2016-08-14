@@ -31,5 +31,5 @@ As publishers
 ```sh
 user@host:~$ sudo apt-get update
 user@host:~$ sudo apt-get install mosquitto
-user@host:~$ 
+user@host:~$ sudo update-rc.d mosquitto defaults
 ```
