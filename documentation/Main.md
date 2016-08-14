@@ -21,4 +21,5 @@ root@edison:~/openstack/device#
 ```
 
 ```sh
+root@edison:~/openstack/device# python main.py
 ```
