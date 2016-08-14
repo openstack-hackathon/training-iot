@@ -2,6 +2,7 @@
 
 ## Drivers Setup
 
+Might be a difficult journey
 
 ## Yocto @ Edison
 
