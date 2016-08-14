@@ -20,9 +20,28 @@ Saving to: 'pywapi-0.3.8.tar.gz'
 
 100%[======================================>] 25,166       128KB/s   in 0.2s   
 2016-08-14 17:47:40 (128 KB/s) - 'pywapi-0.3.8.tar.gz' saved [25166/25166]                             
-pywapi-0.3.8/examples/pywapi-countries-example.py               pywapi-0.3.8/setup.py                                           pywapi-0.3.8/MANIFEST                                           pywapi-0.3.8/examples/                                           pywapi-0.3.8/examples/pywapi-noaa-example.py                     pywapi-0.3.8/examples/pywapi-example.py                         pywapi-0.3.8/pywapi.pyc                                         pywapi-0.3.8/LICENSE                                             pywapi-0.3.8/examples/pywapi-weather-com-example.py             pywapi-0.3.8/pywapi.py                                           pywapi-0.3.8/examples/pywapi-cities-example.py                   pywapi-0.3.8/CHANGELOG                                           pywapi-0.3.8/README                                             pywapi-0.3.8/                                                   pywapi-0.3.8/examples/pywapi-yahoo-example.py                   pywapi-0.3.8/examples/get-weather.py                             running build                                                   running build_py                                                 creating build                                                   
+pywapi-0.3.8/examples/pywapi-countries-example.py
+pywapi-0.3.8/setup.py
+pywapi-0.3.8/MANIFEST
+pywapi-0.3.8/examples/
+pywapi-0.3.8/examples/pywapi-noaa-example.py
+pywapi-0.3.8/examples/pywapi-example.py
+pywapi-0.3.8/pywapi.pyc
+pywapi-0.3.8/LICENSE
+pywapi-0.3.8/examples/pywapi-weather-com-example.py
+pywapi-0.3.8/pywapi.py
+pywapi-0.3.8/examples/pywapi-cities-example.py
+pywapi-0.3.8/CHANGELOG
+pywapi-0.3.8/README
+pywapi-0.3.8/
+pywapi-0.3.8/examples/pywapi-yahoo-example.py
+pywapi-0.3.8/examples/get-weather.py
+running build
+running build_py
+creating build
 creating build/lib                                              
-running install_egg_info                                         Removing /usr/lib/python2.7/site-packages/pywapi-0.3.8-py2.7.egg-info                                  
+running install_egg_info
+Removing /usr/lib/python2.7/site-packages/pywapi-0.3.8-py2.7.egg-info
 Writing /usr/lib/python2.7/site-packages/pywapi-0.3.8-py2.7.egg-info
 Cloning into 'openstack'...
 remote: Counting objects: 456, done.
