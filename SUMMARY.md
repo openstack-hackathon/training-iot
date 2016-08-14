@@ -3,9 +3,9 @@
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
 * [Introduction](documentation/Introduction.md)
+   * [Text Editors](documentation/documentation/TextEditors.md)
    * Tbd
 * [Device](documentation/Device.md)
-   * [Text Editors](documentation/documentation/TextEditors.md)
 * [Linux Workstation](documentation/LinuxWorkstation.md)
    * [Openstack Development Environment](documentation/OpenstackDevelopmentEnvironment.md)
    * [Openstack Configuration File](documentation/OpenstackConfigurationFile.md)
