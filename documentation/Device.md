@@ -39,23 +39,33 @@ pywapi-0.3.8/examples/get-weather.py
 running build
 running build_py
 creating build
-creating build/lib                                              
+creating build/lib
+copying pywapi.py -> build/lib
+running install
+running build
+running build_py
+running install_lib
 running install_egg_info
 Removing /usr/lib/python2.7/site-packages/pywapi-0.3.8-py2.7.egg-info
 Writing /usr/lib/python2.7/site-packages/pywapi-0.3.8-py2.7.egg-info
 Cloning into 'openstack'...
-remote: Counting objects: 456, done.
-remote: Compressing objects: 100% (142/142), done.
-remote: Total 456 (delta 79), reused 0 (delta 0), pack-reused 307
-Receiving objects: 100% (456/456), 52.01 KiB | 0 bytes/s, done.
-Resolving deltas: 100% (242/242), done.
+remote: Counting objects: 476, done.
+remote: Compressing objects: 100% (162/162), done.
+remote: Total 476 (delta 94), reused 0 (delta 0), pack-reused 307
+Receiving objects: 100% (476/476), 54.71 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (257/257), done.
 Checking connectivity... done.
+/usr/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:318: SNIMissingWarning: An HTTPS request has been.
+  SNIMissingWarning
+/usr/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext o.
+  InsecurePlatformWarning
 Requirement already up-to-date: pip in /usr/lib/python2.7/site-packages
 Downloading http://iotdk.intel.com/repos/3.5/intelgalactic/opkg/i586//Packages.
 Updated list of available packages in /var/lib/opkg/iotkit.
 Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/all/Packages.
 Updated list of available packages in /var/lib/opkg/iotdk-all.
 Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/Packages.
+
 
 ```
 
