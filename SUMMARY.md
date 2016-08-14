@@ -16,4 +16,5 @@
    * [Openstack Hello World](documentation/OpenstackHelloWorld.md)
 * [MQ Telemetry Transport](documentation/MQTelemetryTransport.md)
 * [Resources](documentation/Resources.md)
+* Challenge
 
