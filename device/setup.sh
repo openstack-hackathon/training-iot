@@ -22,8 +22,8 @@ pip install -r requirements.pip
 echo
 echo "Now go to openstack/device directory to get started!"
 echo
-echo "Work on having your credentials ready:
-echo "core/configuration/credentials.config"
+echo "Work on having your credentials ready!"
+echo "credentials.config"
 echo
 echo "Happy Openstack'ing!"
 echo
