@@ -17,13 +17,13 @@ We should have all Mosquitto MQTT tools available in latest version of Linux Yoc
 As subscribers
 
 ```sh
-    root@board:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t IoT101/#
+root@edison:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t IoT101/#
 ```
 
 As publishers
 
 ```sh
-    root@board:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t IoT101/all -m "Hello All Operators!"
+root@edison:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t IoT101/all -m "Hello All Operators!"
 ```
 
 ## Mosquitto Server/Broker
