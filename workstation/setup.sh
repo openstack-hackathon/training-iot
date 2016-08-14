@@ -8,7 +8,7 @@ apt-get update
 apt-get install git
 
 git clone https://github.com/xe1gyq/openstack.git
-cd openstack
+cd openstack/workstation
 
 sh requirements.apt
 pip install -U pip setuptools requests
