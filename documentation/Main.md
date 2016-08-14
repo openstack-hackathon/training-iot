@@ -1,6 +1,6 @@
 # Main
 
-## openstack device main example
+## openstack device main (sensors)
 
 ```sh
 root@edison:~/openstack/device# python main.py 
