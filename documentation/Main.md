@@ -15,6 +15,9 @@ root@edison:~/openstack/device#
 
 ```sh
 root@edison:~/openstack/device# nano credentials.config
+[telegram]
+token=227111423:AAHgN0MRCTAAdlOPn_vQ0aVQLdxn0hYFUx0
+root@edison:~/openstack/device# 
 ```
 
 ```sh
