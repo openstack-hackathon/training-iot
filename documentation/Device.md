@@ -1,10 +1,12 @@
 # Device
 
-## openstack device setup
+## openstack device setup execution
 
 ```sh
 root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/openstack/master/device/setup.sh -o - | sh
 ```
+
+## openstack device setup log
 
 ```sh
 Welcome to Xe1Gyq Openstack Device Playground
