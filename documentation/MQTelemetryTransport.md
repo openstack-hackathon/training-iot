@@ -26,7 +26,7 @@ As publishers
     root@board:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t IoT101/all -m "Hello All Operators!"
 ```
 
-## Mosquitto MQTT Server/Broker
+## Mosquitto Server/Broker
 
 ```sh
 user@host:~$ sudo apt-get update
