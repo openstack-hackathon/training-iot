@@ -14,10 +14,6 @@
 
 We should have all Mosquitto MQTT tools available in latest version of Linux Yocto based version
 
-## Mosquitto MQTT Server/Broker
-
-## Mosquitto Client
-
 As subscribers
 
 ```sh
@@ -29,3 +25,5 @@ As publishers
 ```sh
     root@board:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t IoT101/all -m "Hello All Operators!"
 ```
+
+## Mosquitto MQTT Server/Broker
