@@ -30,6 +30,6 @@ As publishers
 
 ```sh
 user@host:~$ sudo apt-get update
-user@host:~$ 
+user@host:~$ sudo apt-get install mosquitto
 user@host:~$ 
 ```
