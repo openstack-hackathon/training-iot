@@ -6,12 +6,12 @@ root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/openstack/master/de
 ```sh
 Welcome to Xe1Gyq Openstack Device Playground
 
---2016-08-14 17:47:27--  https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tz
-Resolving launchpad.net... 91.189.89.222, 91.189.89.223
-Connecting to launchpad.net|91.189.89.222|:443... connected.
+--2016-08-14 17:58:52--  https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tar.gz
+Resolving launchpad.net... 91.189.89.223, 91.189.89.222
+Connecting to launchpad.net|91.189.89.223|:443... connected.
 HTTP request sent, awaiting response... 302 Moved Temporarily
 Location: https://launchpadlibrarian.net/166317636/pywapi-0.3.8.tar.gz [following]
---2016-08-14 17:47:32--  https://launchpadlibrarian.net/166317636/pywapi-0.3.8.tar.gz
+--2016-08-14 17:59:05--  https://launchpadlibrarian.net/166317636/pywapi-0.3.8.tar.gz
 Resolving launchpadlibrarian.net... 91.189.89.228, 91.189.89.229
 Connecting to launchpadlibrarian.net|91.189.89.228|:443... connected.
 HTTP request sent, awaiting response... 200 OK
