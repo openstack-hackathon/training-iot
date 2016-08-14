@@ -30,6 +30,14 @@
 - Dimensions — 35.5 × 25.0 × 3.9mm (1.4 × 1.0 × 0.15 in.)
 - Operating system — Yocto Linux 1.6 for the Atom SoC, with support for Arduino IDE, Eclipse (C, C++, Python), Intel XDK (Node.JS, HTML5); Viper RTOS SDK for the Quark MCU
 
+```sh
+    root@edison:~# uname -a
+    Linux edison 3.10.17-poky-edison+ #1 SMP PREEMPT Fri Jun 19 12:06:40 CEST 2015 i686 GNU/Linux
+    root@edison:~# cat /proc/cpuinfo | grep processor
+    processor       : 0
+    processor       : 1
+```
+
 <center><img src="https://cdn.sparkfun.com//assets/parts/1/0/0/1/1/SparkFun_Edison_Boards-14.jpg"></center>
 
 ## Links
@@ -55,15 +63,6 @@ Breakout Boards
 
 <center><img src="https://cdn.sparkfun.com//assets/parts/1/0/0/1/1/13025-04.jpg"></center>
 <center><img src="https://cdn.sparkfun.com//assets/parts/1/0/1/3/9/13097-06.jpg">content/uploads/2015/12/DSC_0112_01.jpg"></center>
-
-
-```sh
-    root@edison:~# uname -a
-    Linux edison 3.10.17-poky-edison+ #1 SMP PREEMPT Fri Jun 19 12:06:40 CEST 2015 i686 GNU/Linux
-    root@edison:~# cat /proc/cpuinfo | grep processor
-    processor       : 0
-    processor       : 1
-```
 
 ## Generic Microcontroller Unit (MCU) on an Intel® Edison board
 
