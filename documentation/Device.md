@@ -54,12 +54,7 @@ Breakout Boards
 - [Intel® Edison The Edi-Expand & IoT Counter](https://www.kickstarter.com/projects/tekt/the-iot-counter-supercharging-an-internet-of-numbe)
 
 <center><img src="https://cdn.sparkfun.com//assets/parts/1/0/0/1/1/13025-04.jpg"></center>
-<center><img src="https://cdn.sparkfun.com//assets/parts/1/0/1/3/9/13097-06.jpg"></center>
-<center><img src="http://image.dfrobot.com/image/cache/data/DFR0338/_DSC0329-900x600.jpg"></center>
-<center><img src="http://image.dfrobot.com/image/cache/data/DFR0331/_DSC0299-900x600.jpg"></center>
-<center><img src="http://blogs.intel.com/evangelists/files/2015/12/Screen-Shot-2015-12-07-at-11.03.52-AM.png"></center>
-<center><img src="https://ksr-ugc.imgix.net/assets/004/134/346/a8475bfaf4df9643ed7379e265b46cb6_original.png?v=1436673178&w=680&fit=max&auto=format&lossless=true&s=3980c7c3d7c307bc1ec5563102826278"></center>
-<center><img src="http://modulowo.com/wp-content/uploads/2015/12/DSC_0112_01.jpg"></center>
+<center><img src="https://cdn.sparkfun.com//assets/parts/1/0/1/3/9/13097-06.jpg">content/uploads/2015/12/DSC_0112_01.jpg"></center>
 
 
 ```sh
