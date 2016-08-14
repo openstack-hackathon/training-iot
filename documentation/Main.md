@@ -21,5 +21,14 @@ root@edison:~/openstack/device#
 ```
 
 ```sh
-root@edison:~/openstack/device# python main.py
+root@edison:~/openstack/device# python main.py 
+/usr/lib/python2.7/site-packages/urllib3/util/ssl_.py:318: SNIMissingWarning: An HTTPS request has been made, but the SNI (Subject Na.
+  SNIMissingWarning
+/usr/lib/python2.7/site-packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This p.
+  InsecurePlatformWarning
+/usr/lib/python2.7/site-packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This p.
+  InsecurePlatformWarning
+^Z
+[1]+  Stopped(SIGTSTP)        python main.py
+root@edison:~/openstack/device# 
 ```
