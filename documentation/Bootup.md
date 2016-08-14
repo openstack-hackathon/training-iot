@@ -29,9 +29,6 @@ Might be a difficult journey
 
 #### Windows
 
-> PuTTY is an SSH and telnet client, developed originally by Simon Tatham for the Windows platform. PuTTY is open source software that is available with source code and is developed and supported by a group of volunteers.
-
-Use [Putty](http://www.putty.org/)
 
 ### Windows USB Serial Driver
 
@@ -52,6 +49,12 @@ So Intel Edison can be recognized as a COM port, please install [this driver](ht
     [11940.540185] usb 6-1: FTDI USB Serial Device converter now attached to ttyUSB0
     user@host:~$ sudo minicom -D /dev/ttyUSB0 115200
 ```
+
+## Serial Communication Application
+
+> PuTTY is an SSH and telnet client, developed originally by Simon Tatham for the Windows platform. PuTTY is open source software that is available with source code and is developed and supported by a group of volunteers.
+
+Use [Putty](http://www.putty.org/)
 
 ## Yocto @ Edison
 
