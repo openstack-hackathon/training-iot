@@ -97,8 +97,3 @@ root@edison:~/openstack/device# ls
 iot101inc.py  main.py  requirements.opkg  requirements.pip  setup.sh
 root@edison:~/openstack/device# 
 ```
-
-
-```sh
-```
-
