@@ -24,6 +24,9 @@ Configure your Edison WiFi network
 
 ```sh
 root@edison:~# configure_edison --wifi
+```
+
+```sh
 Configure Edison: WiFi Connection
 
 Scanning: 1 seconds left  
