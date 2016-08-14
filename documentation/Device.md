@@ -91,6 +91,8 @@ Happy Openstack'ing!
 root@edison:~# 
 ```
 
+## openstack device directory structure
+
 ```sh
 root@edison:~# cd openstack/device/
 root@edison:~/openstack/device# ls
