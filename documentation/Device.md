@@ -98,6 +98,8 @@ iot101inc.py  main.py  requirements.opkg  requirements.pip  setup.sh
 root@edison:~/openstack/device# 
 ```
 
+## setup.sh file
+
 ```sh
 echo
 echo "Welcome to Xe1Gyq Openstack Device Playground"
