@@ -5,7 +5,7 @@
 * [Introduction](documentation/Introduction.md)
    * [Text Editors](documentation/documentation/TextEditors.md)
 * [Device](documentation/Device.md)
-   * Main
+   * [Main](documentation/Main.md)
    * [IoT101 Inc.](documentation/IoT101Inc.md)
 * [Linux Workstation](documentation/LinuxWorkstation.md)
    * [Openstack Development Environment](documentation/OpenstackDevelopmentEnvironment.md)
