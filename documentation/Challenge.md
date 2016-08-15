@@ -2,7 +2,7 @@
 
 # Mosquitto Server / Broker
 
-Provisione a Mosquitto Server / Borker with Openstack
+Provision a Mosquitto Server / Borker with Openstack
 
 # GiekIs
 
