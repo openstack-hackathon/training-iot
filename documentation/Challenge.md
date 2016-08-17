@@ -2,7 +2,7 @@
 
 # Dashboard
 
-
+Provision a Dashboard with Openstack to visualize the data coming from your device
 
 # Mosquitto Server / Broker
 
