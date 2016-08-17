@@ -11,7 +11,6 @@
    * [Main](documentation/Main.md)
    * [IoT101 Inc.](documentation/IoT101Inc.md)
        * [MQ Telemetry Transport](documentation/MQTelemetryTransport.md)
-       * Tbd
 * [Linux Workstation](documentation/LinuxWorkstation.md)
    * [Openstack Development Environment](documentation/OpenstackDevelopmentEnvironment.md)
    * [Openstack Configuration File](documentation/OpenstackConfigurationFile.md)
