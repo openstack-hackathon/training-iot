@@ -1,5 +1,45 @@
 # IoT101 Inc.
 
+## Once Upon A Time ...
+
+A company...
+
+### Profile
+
+- __Business Name__: IOT101 Inc.
+- __Sector__: Industrial
+- __Company Overview__: IOTL101 Inc. creates End to End Industrial Automation Solutions to collect, exchange, analyze and react on events.
+- 
+### Business Need
+
+A 500 Fortune company specialized in Plastic transformation has requested IOT101 Inc. a Proof of Concept to create their  next-generation End to End Industrial Automation System. The  solution shall improve at Predictive Maintenance and Decision Making:
+
+- Real-time Asset Monitoring 
+- Single Screen Operator View (Decision Making)
+
+### Customer Proposed Functional Architecture
+
+- Industrial Device
+  - Temperature
+  - Actuator
+- Communication
+- Cloud
+  - Application
+- Mobile
+  - Application 
+
+### Customer Required Products and Services
+
+- Hardware
+  - Linux Based Embedded Platform
+  - Sensor
+  - Actuator
+- Software
+  - Linux Based Operating System
+- Partners
+  - IBM 
+  - Freeboard
+
 ## iot101inc execution
 
 ```sh
