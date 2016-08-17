@@ -48,4 +48,3 @@ As publishers
 ```sh
 root@edison:~# mosquitto_pub -h ip.of.deployed.server -p 1883 -t IoT101/all -m "Hello All!"
 ```
-
