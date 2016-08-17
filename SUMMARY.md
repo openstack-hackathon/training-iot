@@ -10,12 +10,12 @@
    * [Setup](documentation/DeviceSetup.md)
    * [Main](documentation/Main.md)
    * [IoT101 Inc.](documentation/IoT101Inc.md)
+       * [MQ Telemetry Transport](documentation/MQTelemetryTransport.md)
        * Tbd
 * [Linux Workstation](documentation/LinuxWorkstation.md)
    * [Openstack Development Environment](documentation/OpenstackDevelopmentEnvironment.md)
    * [Openstack Configuration File](documentation/OpenstackConfigurationFile.md)
    * [Openstack Hello World](documentation/OpenstackHelloWorld.md)
-* [MQ Telemetry Transport](documentation/MQTelemetryTransport.md)
 * [Challenge](documentation/Challenge.md)
 * [Resources](documentation/Resources.md)
 
