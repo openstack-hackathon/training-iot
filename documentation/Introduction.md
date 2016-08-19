@@ -19,3 +19,8 @@ Comprender lo que es el Internet de las Cosas, identificar sus componentes y cre
 - Utilización de plataformas en la nube para la administración de los datos
 - Reto de Integración de hardware con software
 
+### Prerequisitos
+
+- Github Account https://github.com/
+- Freeboard.io Account http://freeboard.io/
+- Laptop (Linux, Windows, Mac)
