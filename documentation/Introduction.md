@@ -22,5 +22,5 @@ Comprender lo que es el Internet de las Cosas, identificar sus componentes y cre
 ### Prerequisitos
 
 - Laptop (Linux, Windows, Mac)
-- Seguir instrucciones de instalacion de controladores de acuerdo a 
+- Seguir instrucciones de instalacion de controladores USB solamente de acuerdo a 
   https://software.intel.com/en-us/get-started-edison-windows-step2
