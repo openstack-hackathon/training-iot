@@ -7,7 +7,7 @@
 
 ### Objetivo
 
-Comprender lo que es el Internet de las Cosas, identificar sus componentes y crear un proyecto básico.
+Comprender lo que es el Internet de las Cosas, identificar sus componentes y crear un proyecto básico usando Intel® Edison™ y Openstack.
 
 ### Módulos
 
