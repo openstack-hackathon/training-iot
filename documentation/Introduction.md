@@ -21,5 +21,4 @@ Comprender lo que es el Internet de las Cosas, identificar sus componentes y cre
 
 ### Prerequisitos
 
-- Github Account https://github.com/
 - Laptop (Linux, Windows, Mac)
