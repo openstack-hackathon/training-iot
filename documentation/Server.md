@@ -35,9 +35,11 @@ root@openstackme:~# pip install flask
 ```
 
 ```
-root@openstackme:~# mkdir ~/flaskapp
-root@openstackme:~# sudo ln -sT ~/flaskapp /var/www/html/flaskapp
-root@openstackme:~# cd ~/flaskapp
-root@openstackme:~/flaskapp# echo "Hello World" > index.html
-root@openstackme:~/flaskapp# 
+root@openstackme:~# cd /var/www/html/
+root@openstackme:/var/www/html# ls
+index.html
+root@openstackme:/var/www/html# mkdir flask
+root@openstackme:/var/www/html# cd flask
+root@openstackme:/var/www/html/flask# echo "Hello World" > index.html
+root@openstackme:/var/www/html/flask# 
 ```
