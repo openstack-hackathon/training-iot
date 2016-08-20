@@ -17,4 +17,5 @@
    * [Openstack Hello World](documentation/OpenstackHelloWorld.md)
 * [Challenge](documentation/Challenge.md)
 * [Resources](documentation/Resources.md)
+* Server
 
