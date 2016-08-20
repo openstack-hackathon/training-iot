@@ -89,6 +89,8 @@ from datetime import date
 port = 9000 #Websocket Port
 timeInterval= 2000 #Milliseconds
 
+value = 0
+
 class WSHandler(tornado.websocket.WebSocketHandler):
         #check_origin fixes an error 403 with Tornado
         #http://stackoverflow.com/questions/24851207/tornado-403-get-warning-when-opening-websocket
@@ -102,7 +104,8 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 
     def send_values(self):
                 #Generates random values to send via websocket
-        self.write_message(str(randint(1,10)) + ';' + str(randint(1,10)) + ';' + str(randint(1,10)) + ';' + str(randint(1,10)))
+        global value
+        self.write_message(str(randint(1,10)) + ';' + str(randint(1,10)) + ';' + str(randint(1,10)) + ';' + str(value))
 
     def on_message(self, message):
         pass
@@ -112,12 +115,12 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 
 class VersionHandler(tornado.web.RequestHandler):
     def get(self):
-        say = self.get_argument("say", "Hello")
-        #say = "say"
+        global value
+        value = self.get_argument("value", "0")
         response = { 'version': '3.5.1',
                      'last_build':  date.today().isoformat(),
-                     'variable': say,
-                     'path': self.request.path }
+                     'path': self.request.path,
+                     'value': value }
         self.write(response)
 
 application = tornado.web.Application([
