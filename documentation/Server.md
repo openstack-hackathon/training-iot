@@ -15,9 +15,9 @@ root@openstackme:~# cd /var/www/html/
 root@openstackme:/var/www/html# ls
 index.html
 root@openstackme:/var/www/html# mkdir 
-root@openstackme:/var/www/html# cd flask
-root@openstackme:/var/www/html/flask# echo "Hello World" > index.html
-root@openstackme:/var/www/html/flask# 
+root@openstackme:/var/www/html# cd iotinc
+root@openstackme:/var/www/html/iotinc# echo "Hello World" > index.html
+root@openstackme:/var/www/html/iotinc# 
 ```
 
 # UberSimpleWebsockets
