@@ -7,6 +7,7 @@ root@openstackme:~# apt-get install -y libapache2-mod-wsgi
 root@openstackme:~# apt-get install -y python-pip
 root@openstackme:~# pip install flask
 root@openstackme:~# pip install tornado
+root@openstackme:~# pip install yrestful
 ```
 
 ```
@@ -39,9 +40,6 @@ root@openstackme:/var/www/html/UberSimpleWebsockets#
 
 http://www.drdobbs.com/open-source/building-restful-apis-with-tornado/240160382
 
-```sh
-root@openstackme:/var/www/html/UberSimpleWebsockets# pip install pyrestful
-```
 
 # Final
 
