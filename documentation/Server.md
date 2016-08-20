@@ -53,3 +53,9 @@ Unpacking objects: 100% (24/24), done.
 Checking connectivity... done.
 root@openstackme:/var/www/html# 
 ```
+
+```sh
+root@openstackme:/var/www/html/UberSimpleWebsockets# ls
+client-Chart.html  client-JustLog.html  LICENSE  README.md  send.pl  send.py
+root@openstackme:/var/www/html/UberSimpleWebsockets# 
+```
