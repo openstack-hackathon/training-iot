@@ -42,8 +42,6 @@ root@openstackme:/var/www/html//iotinc/UberSimpleWebsockets#
 
 # Final
 
-http://104.236.227.50:9000/version?say=there
-
 ```python
 import tornado.httpserver
 import tornado.websocket
@@ -102,3 +100,5 @@ if __name__ == "__main__":
     tornado.ioloop.IOLoop.instance().start()
 
 ```
+
+http://104.236.227.50:9000/version?say=there
