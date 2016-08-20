@@ -43,3 +43,13 @@ root@openstackme:/var/www/html# cd flask
 root@openstackme:/var/www/html/flask# echo "Hello World" > index.html
 root@openstackme:/var/www/html/flask# 
 ```
+
+```
+root@openstackme:/var/www/html# git clone https://github.com/albertobeta/UberSimpleWebsockets.git
+Cloning into 'UberSimpleWebsockets'...
+remote: Counting objects: 24, done.
+remote: Total 24 (delta 0), reused 0 (delta 0), pack-reused 24
+Unpacking objects: 100% (24/24), done.
+Checking connectivity... done.
+root@openstackme:/var/www/html# 
+```
