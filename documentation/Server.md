@@ -48,10 +48,9 @@ import tornado.websocket
 import tornado.ioloop
 from tornado.ioloop import PeriodicCallback
 import tornado.web
-from random import randint #Random generator
+from random import randint
 from datetime import date
 
-#Config
 port = 9000 #Websocket Port
 timeInterval= 2000 #Milliseconds
 
