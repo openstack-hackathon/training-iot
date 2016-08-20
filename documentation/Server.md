@@ -33,3 +33,11 @@ root@openstackme:~# apt-get install -y libapache2-mod-wsgi
 root@openstackme:~# apt-get install -y python-pip
 root@openstackme:~# pip install flask
 ```
+
+```
+root@openstackme:~# mkdir ~/flaskapp
+root@openstackme:~# sudo ln -sT ~/flaskapp /var/www/html/flaskapp
+root@openstackme:~# cd ~/flaskapp
+root@openstackme:~/flaskapp# echo "Hello World" > index.html
+root@openstackme:~/flaskapp# 
+```
