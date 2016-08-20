@@ -19,7 +19,7 @@ root@openstackme:/var/www/html/flask# echo "Hello World" > index.html
 root@openstackme:/var/www/html/flask# 
 ```
 
-https://github.com/albertobeta/UberSimpleWebsockets
+> Extremely simple example of websocket using Python/Perl (server-side) and Javascript (client-side) [](https://github.com/albertobeta/UberSimpleWebsockets)
 
 ```
 root@openstackme:/var/www/html# git clone https://github.com/albertobeta/UberSimpleWebsockets.git
