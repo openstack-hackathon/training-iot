@@ -25,19 +25,19 @@ root@openstackme:/var/www/html/iotinc#
 > Extremely simple example of websocket using Python/Perl (server-side) and Javascript (client-side) [UberSimpleWebsockets](https://github.com/albertobeta/UberSimpleWebsockets)
 
 ```
-root@openstackme:/var/www/html# git clone https://github.com/albertobeta/UberSimpleWebsockets.git
+root@openstackme:/var/www/html/iotinc# git clone https://github.com/albertobeta/UberSimpleWebsockets.git
 Cloning into 'UberSimpleWebsockets'...
 remote: Counting objects: 24, done.
 remote: Total 24 (delta 0), reused 0 (delta 0), pack-reused 24
 Unpacking objects: 100% (24/24), done.
 Checking connectivity... done.
-root@openstackme:/var/www/html# 
+root@openstackme:/var/www/html/iotinc# 
 ```
 
 ```sh
-root@openstackme:/var/www/html/UberSimpleWebsockets# ls
+root@openstackme:/var/www/html//iotinc/UberSimpleWebsockets# ls
 client-Chart.html  client-JustLog.html  LICENSE  README.md  send.pl  send.py
-root@openstackme:/var/www/html/UberSimpleWebsockets# 
+root@openstackme:/var/www/html//iotinc/UberSimpleWebsockets# 
 ```
 
 http://www.drdobbs.com/open-source/building-restful-apis-with-tornado/240160382
