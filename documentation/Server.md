@@ -1,13 +1,12 @@
 # Server
 
-
-
 ```
 root@openstackme:~# apt-get update
 root@openstackme:~# apt-get install -y apache2
 root@openstackme:~# apt-get install -y libapache2-mod-wsgi
 root@openstackme:~# apt-get install -y python-pip
 root@openstackme:~# pip install flask
+root@openstackme:~# pip install tornado
 ```
 
 ```
@@ -18,10 +17,6 @@ root@openstackme:/var/www/html# mkdir flask
 root@openstackme:/var/www/html# cd flask
 root@openstackme:/var/www/html/flask# echo "Hello World" > index.html
 root@openstackme:/var/www/html/flask# 
-```
-
-```sh
-root@openstackme:~# pip install tornado
 ```
 
 https://github.com/albertobeta/UberSimpleWebsockets
