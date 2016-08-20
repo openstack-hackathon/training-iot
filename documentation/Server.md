@@ -61,3 +61,5 @@ root@openstackme:/var/www/html/UberSimpleWebsockets# ls
 client-Chart.html  client-JustLog.html  LICENSE  README.md  send.pl  send.py
 root@openstackme:/var/www/html/UberSimpleWebsockets# 
 ```
+
+http://www.drdobbs.com/open-source/building-restful-apis-with-tornado/240160382
