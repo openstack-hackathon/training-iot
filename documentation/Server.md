@@ -45,7 +45,7 @@ root@openstackme:/var/www/html/flask#
 ```
 
 ```sh
-pip install tornado
+root@openstackme:~# pip install tornado
 ```
 
 https://github.com/albertobeta/UberSimpleWebsockets
