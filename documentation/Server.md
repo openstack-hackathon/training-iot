@@ -42,7 +42,6 @@ root@openstackme:/var/www/html//iotinc/UberSimpleWebsockets#
 
 http://www.drdobbs.com/open-source/building-restful-apis-with-tornado/240160382
 
-
 # Final
 
 http://104.236.227.50:9000/version?say=there
