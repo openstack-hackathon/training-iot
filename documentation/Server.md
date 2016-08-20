@@ -67,3 +67,7 @@ root@openstackme:/var/www/html/UberSimpleWebsockets#
 ```
 
 http://www.drdobbs.com/open-source/building-restful-apis-with-tornado/240160382
+
+```sh
+root@openstackme:/var/www/html/UberSimpleWebsockets# pip install pyrestful
+```
