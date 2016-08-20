@@ -26,8 +26,8 @@ root@openstackme:~# bokeh serve --host 104.236.227.50:5006
 2016-08-20 03:21:08,011 ServerConnection created
 ```
 
-
 ```
-apt-get update
-apt-get install apache2
+root@openstackme:~# apt-get update
+root@openstackme:~# apt-get install apache2
+
 ```
