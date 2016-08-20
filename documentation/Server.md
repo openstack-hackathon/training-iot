@@ -2,7 +2,7 @@
 
 ```
 root@openstackme:~# pip install bokeh
-root@openstackme:~# 
+root@openstackme:~# bokeh serve
 2016-08-20 03:16:31,259 Starting Bokeh server version 0.12.1
 2016-08-20 03:16:31,278 Starting Bokeh server on port 5006 with applications at paths ['/']
 2016-08-20 03:16:31,278 Starting Bokeh server with process id: 3115
