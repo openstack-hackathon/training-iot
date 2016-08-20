@@ -15,7 +15,7 @@
    * [Openstack Development Environment](documentation/OpenstackDevelopmentEnvironment.md)
    * [Openstack Configuration File](documentation/OpenstackConfigurationFile.md)
    * [Openstack Hello World](documentation/OpenstackHelloWorld.md)
-* Server
+* [Server](documentation/Server.md)
 * [Challenge](documentation/Challenge.md)
 * [Resources](documentation/Resources.md)
 
