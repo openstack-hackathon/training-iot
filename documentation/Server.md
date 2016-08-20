@@ -44,6 +44,10 @@ root@openstackme:/var/www/html/flask# echo "Hello World" > index.html
 root@openstackme:/var/www/html/flask# 
 ```
 
+```sh
+pip install tornado
+```
+
 https://github.com/albertobeta/UberSimpleWebsockets
 
 ```
