@@ -46,6 +46,10 @@ root@openstackme:/var/www/html/iotinc#
 
 http://104.236.227.50:9000/sensor?value=5
 
+```sh
+root@openstackme:/var/www/html/iotinc# nano index.html
+```
+
 ```html
 <html>
 <head>
