@@ -225,7 +225,7 @@ if __name__ == "__main__":
 ```
 
 ```sh
-root@openstackme:/var/www/html/iotinc# python gateway.py 
+root@openstackme:/var/www/html/iot101inc# python gateway.py 
 
 ```
 
