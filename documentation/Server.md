@@ -210,6 +210,4 @@ google.load('visualization', '1', {packages: ['corechart'], callback: drawVisual
 
 </body>
 </html>
-
-
 ```
