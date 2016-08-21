@@ -17,6 +17,7 @@
    * [Openstack Hello World](documentation/OpenstackHelloWorld.md)
 * [Server](documentation/Server.md)
    * [MQTT Broker](documentation/MqttBroker.md)
+   * Dashboard
 * [Challenge](documentation/Challenge.md)
 * [Resources](documentation/Resources.md)
 * [Sandbox](documentation/Sandbox.md)
