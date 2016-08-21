@@ -10,7 +10,7 @@ root@openstackme:/var/www/html/iot101inc# rm index.html
 root@openstackme:/var/www/html/iot101inc# 
 ```
 
-# UberSimpleWebsockets
+# UberSimpleWebsockets, Example
 
 > Extremely simple example of websocket using Python/Perl (server-side) and Javascript (client-side) [UberSimpleWebsockets](https://github.com/albertobeta/UberSimpleWebsockets)
 
