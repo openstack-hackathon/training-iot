@@ -35,9 +35,9 @@ root@openstackme:/var/www/html/iotinc#
 ```
 
 ```sh
-root@openstackme:/var/www/html//iotinc/UberSimpleWebsockets# ls
+root@openstackme:/var/www/html/iotinc/UberSimpleWebsockets# ls
 client-Chart.html  client-JustLog.html  LICENSE  README.md  send.pl  send.py
-root@openstackme:/var/www/html//iotinc/UberSimpleWebsockets# 
+root@openstackme:/var/www/html/iotinc/UberSimpleWebsockets# 
 ```
 
 # End to End Industrial Automation System
