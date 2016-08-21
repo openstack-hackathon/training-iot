@@ -2,10 +2,10 @@
 
 # Dashboard
 
-Provision the "End to End Industrial Automation System" dashboard with Openstack to visualize sensor data from the device
+Provision the "End to End Industrial Automation System" dashboard with Openstack to visualize sensor data from the device as described under Server Dashboard section
 
-# Mosquitto Server / Broker
+# MQTT Broker
 
-Provision a Mosquitto Broker with Openstack as described under 
+Provision a MQTT Broker with Openstack  
 
 
