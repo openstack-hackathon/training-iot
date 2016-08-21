@@ -9,7 +9,7 @@ user@host:~$ sudo update-rc.d mosquitto defaults
 user@host:~$ sudo /etc/init.d/mosquitto start
 ```
 
-# Mosquitto Client Testing with Openstack Provisioned Server
+# Mosquitto Client Testing
 
 As subscribers
 
