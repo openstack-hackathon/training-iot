@@ -228,3 +228,6 @@ if __name__ == "__main__":
 root@openstackme:/var/www/html/iotinc# python gateway.py 
 
 ```
+
+# Web Browser
+
