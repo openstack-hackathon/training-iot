@@ -16,7 +16,7 @@
    * [Openstack Configuration File](documentation/OpenstackConfigurationFile.md)
    * [Openstack Hello World](documentation/OpenstackHelloWorld.md)
 * [Server](documentation/Server.md)
-   * Dashboard
+   * [Dashboard](documentation/Dashboard.md)
    * [MQTT Broker](documentation/MqttBroker.md)
 * [Challenge](documentation/Challenge.md)
 * [Resources](documentation/Resources.md)
