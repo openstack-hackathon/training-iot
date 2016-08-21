@@ -223,3 +223,7 @@ if __name__ == "__main__":
     http_server.listen(port)
     tornado.ioloop.IOLoop.instance().start()
 ```
+
+```sh
+root@openstackme:/var/www/html/iotinc# python gateway.py
+```
