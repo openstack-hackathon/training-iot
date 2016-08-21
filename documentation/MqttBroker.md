@@ -1,6 +1,6 @@
 # MQTT Broker
 
-# Mosquitto Broker Setup
+# Setup
 
 ```sh
 user@host:~$ sudo apt-get update
@@ -9,7 +9,7 @@ user@host:~$ sudo update-rc.d mosquitto defaults
 user@host:~$ sudo /etc/init.d/mosquitto start
 ```
 
-# Mosquitto Client Testing
+# Testing
 
 As subscribers
 
