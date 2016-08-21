@@ -7,7 +7,6 @@ root@openstackme:~# apt-get install -y libapache2-mod-wsgi
 root@openstackme:~# apt-get install -y python-pip
 root@openstackme:~# pip install flask
 root@openstackme:~# pip install tornado
-root@openstackme:~# pip install yrestful
 ```
 
 ```
