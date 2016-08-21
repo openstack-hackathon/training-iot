@@ -1,13 +1,11 @@
 # Challenge
 
-# Dashboard
-
-Provision a Dashboard with Openstack to visualize the data coming from your device
-
 # Mosquitto Server / Broker
 
-Provision a Mosquitto Server / Broker with Openstack
+Provision a Mosquitto Broker with Openstack as described under 
 
-# GiekIs
+# Dashboard
 
-[Grove Indoor Environment Kit Intelligent System](https://xe1gyq.gitbooks.io/grove-indoor-environment-kit-intelligent-system/content/)
+Provision the Dashboard "" with Openstack to visualize the data coming from your device
+
+

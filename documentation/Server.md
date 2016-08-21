@@ -15,9 +15,9 @@ root@openstackme:~# cd /var/www/html/
 root@openstackme:/var/www/html# ls
 index.html
 root@openstackme:/var/www/html# mkdir 
-root@openstackme:/var/www/html# cd iotinc
-root@openstackme:/var/www/html/iotinc# echo "Hello World" > index.html
-root@openstackme:/var/www/html/iotinc# 
+root@openstackme:/var/www/html# cd iot101inc
+root@openstackme:/var/www/html/iot101inc# echo "Hello World" > index.html
+root@openstackme:/var/www/html/iot101inc# 
 ```
 
 # UberSimpleWebsockets
@@ -25,82 +25,35 @@ root@openstackme:/var/www/html/iotinc#
 > Extremely simple example of websocket using Python/Perl (server-side) and Javascript (client-side) [UberSimpleWebsockets](https://github.com/albertobeta/UberSimpleWebsockets)
 
 ```
-root@openstackme:/var/www/html/iotinc# git clone https://github.com/albertobeta/UberSimpleWebsockets.git
+root@openstackme:/var/www/html/iot101inc# git clone https://github.com/albertobeta/UberSimpleWebsockets.git
 Cloning into 'UberSimpleWebsockets'...
 remote: Counting objects: 24, done.
 remote: Total 24 (delta 0), reused 0 (delta 0), pack-reused 24
 Unpacking objects: 100% (24/24), done.
 Checking connectivity... done.
-root@openstackme:/var/www/html/iotinc# 
+root@openstackme:/var/www/html/iot101inc# 
 ```
 
 ```sh
-root@openstackme:/var/www/html//iotinc/UberSimpleWebsockets# ls
+root@openstackme:/var/www/html/iotinc/UberSimpleWebsockets# ls
 client-Chart.html  client-JustLog.html  LICENSE  README.md  send.pl  send.py
-root@openstackme:/var/www/html//iotinc/UberSimpleWebsockets# 
+root@openstackme:/var/www/html/iotinc/UberSimpleWebsockets# 
+root@openstackme:/var/www/html/iotinc/UberSimpleWebsockets# cd ..
+root@openstackme:/var/www/html/iotinc# 
 ```
 
 # End to End Industrial Automation System
 
 http://104.236.227.50:9000/sensor?value=5
 
-```python
-import tornado.httpserver
-import tornado.websocket
-import tornado.ioloop
-from tornado.ioloop import PeriodicCallback
-import tornado.web
-from random import randint
-from datetime import date
-
-port = 9000
-timeInterval= 2000
-
-value = 0
-
-class WSHandler(tornado.websocket.WebSocketHandler):
-    def check_origin(self, origin):
-        return True
-
-    def open(self):
-        self.callback = PeriodicCallback(self.send_values, timeInterval)
-        self.callback.start()
-
-    def send_values(self):
-        global value
-        self.write_message(str(value))
-
-    def on_message(self, message):
-        pass
-
-    def on_close(self):
-        self.callback.stop()
-
-class SensorHandler(tornado.web.RequestHandler):
-    def get(self):
-        global value
-        value = self.get_argument("value", "0")
-        response = { 'version': '0.1',
-                     'timestamp':  date.today().isoformat(),
-                     'path': self.request.path,
-                     'sensor value': value }
-        self.write(response)
-
-application = tornado.web.Application([
-    (r'/', WSHandler),
-    (r"/sensor", SensorHandler),
-])
-
-if __name__ == "__main__":
-    http_server = tornado.httpserver.HTTPServer(application)
-    http_server.listen(port)
-    tornado.ioloop.IOLoop.instance().start()
+```sh
+root@openstackme:/var/www/html/iot101inc# nano index.html
 ```
 
 ```html
 <html>
 <head>
-<title>Uber Simple Websockets - IoT Inc 101</title>
+<title>Uber Simple Websockets - IoT 101 Inc</title>
 
 <!-- Websocket -->
 <script type="text/javascript">
@@ -202,7 +155,7 @@ google.load('visualization', '1', {packages: ['corechart'], callback: drawVisual
 
 </head>
 <body onload="init()">
-<h3>Uber Simple Websockets - IoT Incorporated 101</h3>
+<h3>Uber Simple Websockets - IoT 101 Inc</h3>
 
 <div id="visualization"></div>
 
@@ -211,3 +164,72 @@ google.load('visualization', '1', {packages: ['corechart'], callback: drawVisual
 </body>
 </html>
 ```
+
+# Gateway
+
+```sh
+root@openstackme:/var/www/html/iotinc# nano gateway.py
+```
+
+```python
+import tornado.httpserver
+import tornado.websocket
+import tornado.ioloop
+from tornado.ioloop import PeriodicCallback
+import tornado.web
+from random import randint
+from datetime import date
+
+port = 9000
+timeInterval= 2000
+
+value = 0
+
+class WSHandler(tornado.websocket.WebSocketHandler):
+    def check_origin(self, origin):
+        return True
+
+    def open(self):
+        self.callback = PeriodicCallback(self.send_values, timeInterval)
+        self.callback.start()
+
+    def send_values(self):
+        global value
+        self.write_message(str(value))
+
+    def on_message(self, message):
+        pass
+
+    def on_close(self):
+        self.callback.stop()
+
+class SensorHandler(tornado.web.RequestHandler):
+    def get(self):
+        global value
+        value = self.get_argument("value", "0")
+        response = { 'version': '0.1',
+                     'timestamp':  date.today().isoformat(),
+                     'path': self.request.path,
+                     'sensor value': value }
+        self.write(response)
+
+application = tornado.web.Application([
+    (r'/', WSHandler),
+    (r"/sensor", SensorHandler),
+])
+
+if __name__ == "__main__":
+    http_server = tornado.httpserver.HTTPServer(application)
+    http_server.listen(port)
+    tornado.ioloop.IOLoop.instance().start()
+```
+
+```sh
+root@openstackme:/var/www/html/iot101inc# python gateway.py 
+
+```
+
+# Web Browser
+
+- http://104.236.227.50/iot101inc/
+- http://104.236.227.50:9000/sensor?value=15
