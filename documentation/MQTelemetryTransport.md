@@ -22,7 +22,7 @@ As publishers
 root@edison:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t IoT101/all -m "Hello All!"
 ```
 
-## Mosquitto Server/Broker
+## Mosquitto Broker
 
 ```sh
 user@host:~$ sudo apt-get update
