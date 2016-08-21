@@ -40,8 +40,7 @@ client-Chart.html  client-JustLog.html  LICENSE  README.md  send.pl  send.py
 root@openstackme:/var/www/html//iotinc/UberSimpleWebsockets# 
 ```
 
-# Final
-
+# End to End Industrial Automation System
 
 http://104.236.227.50:9000/sensor?value=5
 
