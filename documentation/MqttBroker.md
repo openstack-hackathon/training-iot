@@ -14,11 +14,11 @@ user@host:~$ sudo /etc/init.d/mosquitto start
 As subscribers
 
 ```sh
-root@edison:~# mosquitto_sub -h ip.of.deployed.server -p 1883 -t IoTInc101/#
+root@edison:~# mosquitto_sub -h ip.of.deployed.server -p 1883 -t IoT101Inc/#
 ```
 
 As publishers
 
 ```sh
-root@edison:~# mosquitto_pub -h ip.of.deployed.server -p 1883 -t IoTInc101/all -m "Hello All!"
+root@edison:~# mosquitto_pub -h ip.of.deployed.server -p 1883 -t IoT101Inc/all -m "Hello All!"
 ```
