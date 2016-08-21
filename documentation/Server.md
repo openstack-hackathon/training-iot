@@ -168,7 +168,7 @@ google.load('visualization', '1', {packages: ['corechart'], callback: drawVisual
 # Gateway
 
 ```sh
-
+root@openstackme:/var/www/html/iotinc# 
 ```
 
 ```python
