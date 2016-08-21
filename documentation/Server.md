@@ -232,4 +232,4 @@ root@openstackme:/var/www/html/iotinc# python gateway.py
 # Web Browser
 
 - http://104.236.227.50/iotinc/
-- http://104.236.227.50:9000/sensor?value=5
+- http://104.236.227.50:9000/sensor?value=15
