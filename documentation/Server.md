@@ -15,9 +15,9 @@ root@openstackme:~# cd /var/www/html/
 root@openstackme:/var/www/html# ls
 index.html
 root@openstackme:/var/www/html# mkdir 
-root@openstackme:/var/www/html# cd iotinc
-root@openstackme:/var/www/html/iotinc# echo "Hello World" > index.html
-root@openstackme:/var/www/html/iotinc# 
+root@openstackme:/var/www/html# cd iot101inc
+root@openstackme:/var/www/html/iot101inc# echo "Hello World" > index.html
+root@openstackme:/var/www/html/iot101inc# 
 ```
 
 # UberSimpleWebsockets
@@ -25,13 +25,13 @@ root@openstackme:/var/www/html/iotinc#
 > Extremely simple example of websocket using Python/Perl (server-side) and Javascript (client-side) [UberSimpleWebsockets](https://github.com/albertobeta/UberSimpleWebsockets)
 
 ```
-root@openstackme:/var/www/html/iotinc# git clone https://github.com/albertobeta/UberSimpleWebsockets.git
+root@openstackme:/var/www/html/iot101inc# git clone https://github.com/albertobeta/UberSimpleWebsockets.git
 Cloning into 'UberSimpleWebsockets'...
 remote: Counting objects: 24, done.
 remote: Total 24 (delta 0), reused 0 (delta 0), pack-reused 24
 Unpacking objects: 100% (24/24), done.
 Checking connectivity... done.
-root@openstackme:/var/www/html/iotinc# 
+root@openstackme:/var/www/html/iot101inc# 
 ```
 
 ```sh
@@ -47,13 +47,13 @@ root@openstackme:/var/www/html/iotinc#
 http://104.236.227.50:9000/sensor?value=5
 
 ```sh
-root@openstackme:/var/www/html/iotinc# nano index.html
+root@openstackme:/var/www/html/iot101inc# nano index.html
 ```
 
 ```html
 <html>
 <head>
-<title>Uber Simple Websockets - IoT Inc 101</title>
+<title>Uber Simple Websockets - IoT 101 Inc</title>
 
 <!-- Websocket -->
 <script type="text/javascript">
