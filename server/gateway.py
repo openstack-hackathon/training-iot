@@ -21,7 +21,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 
     def send_values(self):
         global value
-        self.write_message(str(randint(1,10)) + ';' + str(randint(1,10)) + ';' + str(randint(1,10)) + ';' + str(value))
+        self.write_message(str(value))
 
     def on_message(self, message):
         pass
@@ -29,19 +29,19 @@ class WSHandler(tornado.websocket.WebSocketHandler):
     def on_close(self):
         self.callback.stop()
 
-class VersionHandler(tornado.web.RequestHandler):
+class SensorHandler(tornado.web.RequestHandler):
     def get(self):
         global value
         value = self.get_argument("value", "0")
-        response = { 'version': '3.5.1',
-                     'last_build':  date.today().isoformat(),
+        response = { 'version': '0.1',
+                     'timestamp':  date.today().isoformat(),
                      'path': self.request.path,
-                     'value': value }
+                     'sensor value': value }
         self.write(response)
 
 application = tornado.web.Application([
     (r'/', WSHandler),
-    (r"/version", VersionHandler),
+    (r"/sensor", SensorHandler),
 ])
 
 if __name__ == "__main__":
