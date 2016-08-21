@@ -192,7 +192,6 @@ function reconnect() {
 
     chart.draw(view, options);
 
-    // you can handle the resizing here - no need to recreate your data and charts from scratch
     $(window).resize(function() {
         chart.draw(data, options);
     });
