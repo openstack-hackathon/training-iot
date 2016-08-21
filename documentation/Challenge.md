@@ -2,7 +2,7 @@
 
 # Mosquitto Server / Broker
 
-Provision a Mosquitto Server / Broker with Openstack 
+Provision a Mosquitto Broker with Openstack as described under 
 
 # Dashboard
 
