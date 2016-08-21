@@ -35,11 +35,11 @@ root@openstackme:/var/www/html/iot101inc#
 ```
 
 ```sh
-root@openstackme:/var/www/html/iotinc/UberSimpleWebsockets# ls
+root@openstackme:/var/www/html/iot101inc/UberSimpleWebsockets# ls
 client-Chart.html  client-JustLog.html  LICENSE  README.md  send.pl  send.py
-root@openstackme:/var/www/html/iotinc/UberSimpleWebsockets# 
-root@openstackme:/var/www/html/iotinc/UberSimpleWebsockets# cd ..
-root@openstackme:/var/www/html/iotinc# 
+root@openstackme:/var/www/html/iot101inc/UberSimpleWebsockets# 
+root@openstackme:/var/www/html/iot101inc/UberSimpleWebsockets# cd ..
+root@openstackme:/var/www/html/iot101inc# 
 ```
 
 # End to End Industrial Automation System
@@ -168,7 +168,7 @@ google.load('visualization', '1', {packages: ['corechart'], callback: drawVisual
 # Gateway
 
 ```sh
-root@openstackme:/var/www/html/iotinc# nano gateway.py
+root@openstackme:/var/www/html/iot101inc# nano gateway.py
 ```
 
 ```python
