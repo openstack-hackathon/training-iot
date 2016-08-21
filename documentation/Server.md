@@ -155,7 +155,7 @@ google.load('visualization', '1', {packages: ['corechart'], callback: drawVisual
 
 </head>
 <body onload="init()">
-<h3>Uber Simple Websockets - IoT Incorporated 101</h3>
+<h3>Uber Simple Websockets - IoT 101 Inc</h3>
 
 <div id="visualization"></div>
 
